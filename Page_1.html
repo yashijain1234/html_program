@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" >
+<title>Frst HTML Page </title>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: black;
+  opacity: .7;
+}
+
+li {
+  float: left;
+  padding: 10px;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: red;
+
+}
+h2,p {
+	text-align: center;
+	color: blue;
+	font-family: algerian;
+	font-size: 20px;
+}
+
+section > p{
+	color: black;
+}
+
+div article {
+	color: white;
+	background-color: purple;
+	font-size: 20px;
+	text-a;ign: center;
+	//opacity: .6;
+}
+
+section div:nth-child(odd) {
+        background-color: gray;
+        padding: 2px;
+}
+section div:nth-child(even) {
+        background-color: black;
+        padding: 2px;
+        color: white;
+}
+
+.demo {
+	color: gray;
+	background-color: black;
+	border: 1px solid red;
+}
+
+p.demo {
+	font-size: 20px;
+}
+
+button {
+     border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button a {
+	text-decoration: none;
+}
+
+table Student, th,tr,td{
+	border: 1px solid black;
+	padding: 20px;
+	border-collapse: collapse;
+
+}
+
+table tr:nth-child(even) {
+	background-color: gray;
+}
+
+</style>
+</head>
+
+<body>
+<h1 style="font-family: algerian; text-align: center;">HTML Tutorial </h1>
+<ul>
+<li><a href="https://www.google.com">Home </a> </li>
+<li><a href="https://www.kiet.edu">Contact Us</a></li>
+<li><a href="https://www.youtube.com">About Us</a></li>
+<li><a href="https://www.google.com">FAQs</a></li>
+</ul>
+
+<div>
+	<h2>Sub-heading </h2>
+	<section>
+		<p> This page simplies describes the use of html & CSS </p>
+	</section>
+	<div>
+		<section> 
+			<h2>Sub-heading 3</h2>
+	         <article>Hostel Management System is a software developed for managing various activities in the hostel. For the past few years the number of educational institutions are increasing rapidly. Thereby the number of hostels are also increasing for the accommodation of the students studying in this institution.
+	         </article>
+	   </section>
+    </div>
+</div>
+
+<h1 align="center">New Sub-Heading </h1>
+<div>
+	<section>
+		<div> Division_1 </div>
+		<div> Division_2 </div>
+		<div> Division_3 </div>
+		<div> Division_4 </div>
+		<div> Division_5 </div>
+		<div> Division_6 </div>
+		<div> Division_7 </div>
+		<div> Division_8 </div>
+		<div> Division_9 </div>
+		<div> Division_10 </div>
+	</section>
+</div>
+
+<div>
+	<p class="demo">YASHI JAIN</p>
+</div>
+<button type="button"><a href="https://www.google.com">Click Me!</a></button>
+
+<div style="float: right;">
+	<h1>Student</h1>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Class</th>
+			<th>Section</th>
+		</tr>
+		<tr>
+			<td>YJ</td>
+			<td>MCA</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>PT</td>
+			<td>MCA</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>AS</td>
+			<td>MCA</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<td>AC</td>
+			<td>MCA</td>
+			<td>C</td>
+		</tr>
+	</table>
+</div>
+
+<div style="float: right; clear: both;">
+   <p>-The HTML page designed by YJ </p>
+</div>
+
+
+</body>
+</html>
