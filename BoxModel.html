@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <html> 
+ <head>
+  <meta charset="ütf-8"> 
+       <title>POP BOX MODEL</title> 
+   <script type="text/javascript"> 
+   function anyfunction() 
+{ 
+alert("Hello!!! I m a Alert Box");
+ }
+  function showConfirm() 
+{
+ let msg;
+  let check=confirm("Do you want to show message?") 
+if(check==true)
+ { 
+ alert("Hello!!! I welcome you");
+  }
+   else
+    { 
+    alert("Hello!!! You are not welcome");
+     }
+      }
+       function showprompt()
+        { 
+        let name=prompt("enter your name", "Name") 
+    if(name!=null) 
+{
+ document.getElementIdBy("name").innerHTML=`Welcome ${name}`
+  }
+   } 
+</script>
+ </head> 
+ <body>
+  <h1>Welcome to Box Model</h1> 
+  <h3>Alert Box!! </h3>
+  <input type="button" onclick= "anyfunction()" show value="Show Message" />
+  <h3>Confirm Box!! </h3>
+  <input type="button" onclick= "showConfirm()" show value="Show Message" />
+  <h3>Prompt Box!! </h3>
+  <input type="button" onclick= "showprompt()" show value="Show Message" />
+</body>
+</html>
